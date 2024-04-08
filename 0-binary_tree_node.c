@@ -1,5 +1,5 @@
 #include "binary_trees.h"
-/*
+/**
    * binary_tree_node - creates a new node
    * @parent: pointer to the parent node.
    * @value: data in the node
@@ -15,7 +15,7 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 
 	if (new_node == NULL)
 		return (NULL);
-	
+
 	new_node->n = value;
 	new_node->parent = parent;
 	new_node->left = NULL;
