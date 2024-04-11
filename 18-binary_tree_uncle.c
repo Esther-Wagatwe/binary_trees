@@ -1,7 +1,7 @@
 #include "binary_trees.h"
 
 /**
-  * binary_tre_uncle - checks if node has an uncle node.
+  * binary_tree_uncle - checks if node has an uncle node.
   * @node: pointer to the node to check uncle for.
   *
   * Return: pointer to uncle node or NULL
@@ -17,10 +17,10 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node)
 		parent = node->parent;
 
 		if (grand->left == parent)
-			return grand->right;
+			return (grand->right);
 		else
-			return grand->left;
+			return (grand->left);
 	}
 
-	return NULL;
+	return (NULL);
 }
