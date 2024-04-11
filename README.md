@@ -1,6 +1,6 @@
 # 0x1D. C - Binary trees
 
-##Authors 
+## Authors 
 * Esther Wagatwe
 * Kelvin Mukaria
 
